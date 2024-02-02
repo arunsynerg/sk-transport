@@ -1,0 +1,146 @@
+.contact{
+    width: 80%;
+    margin: 0 auto;
+  /* background: linear-gradient(120deg, rgb(151, 163, 231),rgb(217, 217, 109), rgb(119, 40, 189)) */
+   backdrop-filter: blur(90px);
+   background-color: rgb(236, 232, 232);
+}
+.contact_touch{
+    height: 100px;
+    color: rgb(6, 6, 7);
+    /* background-color: rgb(240, 245, 242); */
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact_enq{
+    height: 130px;
+    color: black;
+    text-align: center;
+    /* background-color: #fff; */
+    
+}
+.contact_enq h1{
+    color: #D07703;
+    margin-top: 0;
+    padding: 5px 0 0 0 ;
+}
+.contact_via{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_via button{
+    width: 120px;
+    height: 40px;
+    margin: 3px 0;
+    background-color: #D07703;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight:bolder;
+    font-size: 16px;
+
+}
+.contact_via button a{
+    text-decoration: none;
+    color: #fff !important;
+}
+.contact_access{
+    display: flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    padding: 15px;
+   
+    
+}
+.contact_access h4{
+    color: #D07703;
+}
+.contact_Quick{
+    flex: 0.5;
+    text-align: center;
+}
+.contact_add{
+    flex:0.5;
+    
+    text-align: center;
+    
+}
+.mapview{
+    width: auto;
+    height: auto;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 5px;
+    
+}
+.facebook{
+    color: #000863;
+}
+.youtube{
+    color: #ff0101;
+}
+.instagram{
+    color: #fb2424;
+}
+.contact_links a{
+    height: 35px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    /* color: rgb(255, 255, 255) !important; */
+    /* background-color:rgba(3, 3, 3, 0.58); */
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-right: 5px;
+   
+}
+.contact_links a:hover{
+    box-shadow: 0 0 6px 4px #000863;
+}
+
+@media screen and (max-width: 424px){
+    .contact_access{
+        flex-direction: column;
+       
+        align-items: center;
+    }
+    .contact_enq{
+        height: auto;
+        padding: 10px ;
+    }
+    .contact_enq h1{
+       font-size: 1.5rem;
+        margin: 0;
+        padding: 0;
+    }
+    .contact_touch{
+        height: auto;
+        color: rgb(6, 6, 7);
+        /* background-color: rgb(240, 245, 242); */
+      
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /* .mapview{
+        width: 310px;
+        height: auto;
+        margin: 1px auto;
+    } */
+}
