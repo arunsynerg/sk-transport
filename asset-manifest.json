@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/arunsynerg.github.io/sk-transport/static/css/main.7c106ee1.css",
-    "main.js": "/arunsynerg.github.io/sk-transport/static/js/main.cdd9637f.js",
+    "main.js": "/arunsynerg.github.io/sk-transport/static/js/main.6132693f.js",
     "static/js/787.21573283.chunk.js": "/arunsynerg.github.io/sk-transport/static/js/787.21573283.chunk.js",
     "static/media/introvideo.mp4": "/arunsynerg.github.io/sk-transport/static/media/introvideo.a787451c77309ab1652d.mp4",
     "static/media/FillDirt.jpg": "/arunsynerg.github.io/sk-transport/static/media/FillDirt.9061c28087939ac8a0f5.jpg",
@@ -14,18 +14,18 @@
     "static/media/tractor.jpg": "/arunsynerg.github.io/sk-transport/static/media/tractor.cd1255333a37b362f84d.jpg",
     "static/media/lorry.jpg": "/arunsynerg.github.io/sk-transport/static/media/lorry.7ffadd1f8e456a614926.jpg",
     "static/media/jalli.jpg": "/arunsynerg.github.io/sk-transport/static/media/jalli.bd69e0cc8bb1e30d8616.jpg",
+    "static/media/sk_logo.png": "/arunsynerg.github.io/sk-transport/static/media/sk_logo.1fb114e7fe5ec8ab8840.png",
     "static/media/psand.jpg": "/arunsynerg.github.io/sk-transport/static/media/psand.591c7474ac097996e2b7.jpg",
     "static/media/feature.jpg": "/arunsynerg.github.io/sk-transport/static/media/feature.4e25e6cbcd541a2843d9.jpg",
-    "static/media/sk_logo.png": "/arunsynerg.github.io/sk-transport/static/media/sk_logo.9fd267c67bd49434003e.png",
     "static/media/about.jpg": "/arunsynerg.github.io/sk-transport/static/media/about.e41f10ca1459bb66aed1.jpg",
     "static/media/bricks.jpg": "/arunsynerg.github.io/sk-transport/static/media/bricks.eeaadb497d1dbbba08c5.jpg",
     "index.html": "/arunsynerg.github.io/sk-transport/index.html",
     "main.7c106ee1.css.map": "/arunsynerg.github.io/sk-transport/static/css/main.7c106ee1.css.map",
-    "main.cdd9637f.js.map": "/arunsynerg.github.io/sk-transport/static/js/main.cdd9637f.js.map",
+    "main.6132693f.js.map": "/arunsynerg.github.io/sk-transport/static/js/main.6132693f.js.map",
     "787.21573283.chunk.js.map": "/arunsynerg.github.io/sk-transport/static/js/787.21573283.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c106ee1.css",
-    "static/js/main.cdd9637f.js"
+    "static/js/main.6132693f.js"
   ]
 }
