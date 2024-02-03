@@ -32,7 +32,10 @@ h3{
     animation-fill-mode: both;
 }
 #subimg{
-    animation: imgright 0.5s ease-in-out;
+    width: 50%;
+    object-fit: cover;
+    animation-name: imgright;
+    animation-duration: 0.5s;
     animation-timeline: view();
     animation-fill-mode: both;
     animation-range: entry 50% cover 50%;

@@ -47,7 +47,7 @@ function About(){
                         <p>Round-the-clock assistance for all your construction material and rental vehicle needs, ensuring seamless support whenever you need it.</p></div>
                     </div>
                 </div>
-                <img src={feature} className='aboutimg' id='subimg'/>
+                <img src={feature} id='subimg'/>
              </div>
         </div>
     )
