@@ -20,12 +20,12 @@ export default function Contact(){
                 <div>
                      
                    {/* <h3>Call Us</h3> */}
-                    <button className="primary-button"><a href="tel:+1234567890">Call Us</a></button>
+                    <button className="primary-button"><a href="tel:9843346747">Call Us</a></button>
                 </div>
                 <div>
                     
                     {/* <h3>E-Mail Us</h3> */}
-                    <button className="primary-button"><a href="mailto:arun.synergtech@gmail.com">Mail Us</a></button>
+                    <button className="primary-button"><a href="mailto:arun@gmail.com">Mail Us</a></button>
                 </div>
             </div>
             <div className='contact_access'>
