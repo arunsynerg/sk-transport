@@ -68,4 +68,11 @@
     .productlist_box{
         width: 100%;       
     }
+    .product_items{
+        width: 70%;
+        margin: 1rem;
+        /* background-color: rgb(235, 243, 240); */
+        text-align: center;
+        animation: scroll 9s linear infinite;
+    }
 }
