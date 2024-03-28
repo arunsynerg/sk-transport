@@ -6,14 +6,20 @@
     justify-content: space-between;
     z-index: 1000;
     align-items: center;
-    color: #b38c53;
+    color: #ffffff;
     position: fixed;
     top: 0;
     padding: 0 10vw;
-    background-color: rgba(30,30,0,30);
-    /* backdrop-filter:blur(10px); */
+    
+    transition: background-color ease-in-out 0.5s;
+    background-color:  rgba(30,30,0,30);
     font-weight: bold;    
     user-select: none;
+}
+.active{
+    background-color: transparent;
+    backdrop-filter:blur(10px);
+    color: black;
 }
 /* .navcontainer h3{
    
@@ -37,6 +43,9 @@
 .logo_container img{
     width: 7rem;
     height: 100%;
+    background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
 }
 .logo_container h3{
     margin-left: -1.3rem;

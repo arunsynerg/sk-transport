@@ -40,7 +40,7 @@ export default function Contact(){
                 <div className='contact_add'>
                     <h4>Contact & Address</h4>
                     <p>No-1, Highways Colony, Pudukottai Main Road, Trichy 620020, India</p>
-                    <p>+91 0123456789</p>
+                    <p>+91 9843346747</p>
                     <p>info@gmail.com</p>
                     <div className='contact_links'>
                         <a href="https://www.facebook.com/" target='_blank'><FaFacebook className='facebook'/></a>

@@ -7,13 +7,24 @@ import { IoCloseSharp } from "react-icons/io5";
 function Navbar(){
 
     const [navlist, Setnavlist] = useState(false);
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBAckground = ()=>{
+        if(window.scrollY >=80){
+            setNavbar(true)
+        }
+        else{
+            setNavbar(false)
+        }
+    }
+    window.addEventListener('scroll', changeBAckground);
 
     function handlelist(){
         Setnavlist(!navlist)
     }
     return(
         <>
-        <div className="navcontainer">
+        <div className={navbar ? 'navcontainer active' : 'navcontainer'}>
             <div className='logo_container'><img src={logo}/><h3>Transport</h3></div>
             <ul className='navlists'>
                <Link to="home" smooth={true} duration={900} offset={-960}> <li>Home</li></Link>

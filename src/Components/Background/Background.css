@@ -10,11 +10,13 @@
     animation: fade-in 500ms ease-in-out;
    
 }
-
+.img-anime{
+    animation: fade-in 500ms ease-in-out 1s;
+}
 @keyframes fade-in {
     from{
         opacity: 0;
-        transform: translateY(-50px);
+        transform: translateY(-500px);
     }
     to{
         opacity: 1;

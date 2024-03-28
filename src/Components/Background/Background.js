@@ -27,7 +27,7 @@ function Background({count, Setcount, playstatus, Setplaystatus}){
         return(
             <div>
                 <div className="Backgroud-image fade-in">
-                    <img src={imgurl}/>
+                    <img src={imgurl} className='img-anime'/>
                    
                 </div>
                                
